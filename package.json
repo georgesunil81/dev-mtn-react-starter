@@ -1,0 +1,30 @@
+{
+  "name": "devmtnreactstarter",
+  "version": "0.0.0",
+  "description": "To help get started on react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dan Kesler",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.3.26",
+    "babel-loader": "^6.2.0",
+    "css-loader": "^0.23.1",
+    "webpack": "^1.12.9"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ],
+    "plugins": [
+      "transform-object-rest-spread"
+    ]
+  },
+  "dependencies": {
+    "react": "^0.14.5",
+    "react-dom": "^0.14.5"
+  }
+}
